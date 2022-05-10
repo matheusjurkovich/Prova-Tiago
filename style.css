@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    margin-left: 30%;
+    width: 37.9%;
+}
+
+header img {
+    transform: translateY(5px);
+}
+
+main {
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    background-color: rgb(19, 16, 14);
+}
+
+main p {
+    line-height: 25px;
+}
+
+#primeiro p {
+    width: 520px;
+    color: rgba(187, 187, 187, 0.733);
+}
+
+.para {
+    color: rgb(250, 239, 211);
+}
+
+.link {
+    color: rgb(234, 183, 9);
+}
+
+.fotos {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.fotos img {
+    width: 250px;
+    height: 250px;
+}
+main blockquote {
+    color: rgb(53, 53, 53);
+    text-align: center;
+    width: 510px;
+    margin: 12px;
+    font-size: 12px;
+}
+
+#final {
+    padding-left: 20px;
+    margin-top: 100px;
+    width: 510px;
+    padding-bottom: 30px;
+    color: rgba(187, 187, 187, 0.733);
+    font-size: 15px;
+}
+
+
+.foot {
+    transform: translateY(-10px);
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(15, 21, 27);
+    transform: translateY(-10px);
+    height: 530px;
+}
+footer img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 100px;
+}
+footer nav a {
+    border-right: 1px solid wheat;
+    font-size: 12px;
+    padding-right: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+footer blockquote {
+    margin-top: 50px;
+    color: rgb(53, 53, 53);
+    width: 510px;
+    margin-left: 50px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+footer blockquote a {
+    color: white;
+    text-decoration: none;
+}
